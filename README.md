@@ -29,10 +29,4 @@ npm start
 
 ## Deploy
 
-Pensado para Vercel. Conectá el repo y deployá con preview URL. Cuando el DNS de `gjouglard.com.ar` apunte a Vercel, configurá el dominio en el dashboard.
-
-## Pendiente (v1.1)
-
-- Reemplazar `/public/images/gaston.svg` por foto real (`gaston.jpg`)
-- Screenshots reales de proyectos en lugar de placeholders con gradiente
-- Migración DNS + redirect 301 desde GitHub Pages
+Pensado para Vercel. Conectá el repo y deployá con preview URL.
