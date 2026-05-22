@@ -1,0 +1,176 @@
+{
+  "metadata": {
+    "title": "Gaston Jouglard — Full Stack Developer",
+    "description": "I build software people actually use. Full Stack Developer from Argentina with international experience.",
+    "keywords": "full stack developer, react, next.js, typescript, argentina, software"
+  },
+  "nav": {
+    "works": "Works",
+    "about": "About",
+    "contact": "Contact",
+    "home": "Home"
+  },
+  "hero": {
+    "name": "Gaston Jouglard",
+    "name_first": "Gaston",
+    "name_last": "Jouglard",
+    "headline": "I turn complex problems into software people actually use",
+    "subheadline": "I'm Gaston Jouglard, Full Stack Developer. I work across the entire stack because I believe the best solutions come from understanding the whole system — not just your piece of it",
+    "cta_works": "See projects",
+    "cta_linkedin": "LinkedIn",
+    "cta_github": "GitHub",
+    "marquee": "tech-logos",
+    "items": {
+      "full_stack": "Full Stack",
+      "react": "React",
+      "nextjs": "Next.js",
+      "typescript": "TypeScript",
+      "supabase": "Supabase",
+      "postgresql": "PostgreSQL",
+      "nodejs": "Node.js",
+      "saas": "SaaS",
+      "remote": "Remote",
+      "argentina": "Argentina",
+      "australia": "Australia",
+      "brazil": "Brazil",
+      "travel": "Travel",
+      "antarctica": "Antarctica",
+      "manufacturing": "Manufacturing",
+      "coffee": "Coffee",
+      "mate": "Mate",
+      "engineer": "Engineer"
+    },
+    "controls": {
+      "shuffle": "Shuffle tags",
+      "shuffle_label": "Shuffle",
+      "shuffle_tease": " · mix it",
+      "color": "Pill color: {theme}",
+      "color_label": "Change color",
+      "color_tease": " · try it",
+      "show": "Show tags",
+      "show_label": "Show",
+      "show_tease": " · tags",
+      "hide": "Hide tags",
+      "hide_label": "Hide",
+      "hide_tease": " · tags",
+      "themes": {
+        "green": "Green",
+        "blue": "Blue",
+        "yellow": "Yellow",
+        "white": "White"
+      }
+    },
+    "items_a11y": {
+      "container": "Interactive tags — hover or click",
+      "full_stack": "Full Stack — go to projects",
+      "react": "React — open official site",
+      "nextjs": "Next.js — open official site",
+      "typescript": "TypeScript — open official site",
+      "supabase": "Supabase — open official site",
+      "postgresql": "PostgreSQL — open official site",
+      "nodejs": "Node.js — open official site",
+      "saas": "SaaS — go to Wymaq project",
+      "remote": "Remote — go to about",
+      "argentina": "Argentina — go to about",
+      "australia": "Australia — go to about",
+      "brazil": "Brazil — go to about",
+      "travel": "Travel — go to about",
+      "antarctica": "Antarctica — go to Antarpply project",
+      "manufacturing": "Manufacturing — go to Cladding Creations project",
+      "coffee": "Coffee — go to contact",
+      "mate": "Mate — go to about",
+      "engineer": "Engineer — go to about"
+    }
+  },
+  "works": {
+    "title": "Selected Works",
+    "visit": "Visit site",
+    "cladding": {
+      "name": "Cladding Creations",
+      "description": "Production management app and website for an aluminium manufacturing company in Gold Coast, Australia. Digitized panel tracking, inventory, and internal processes."
+    },
+    "antarpply": {
+      "name": "Antarpply Expeditions",
+      "description": "Web platform and backend for managing Antarctic expeditions — trip catalog, booking system, operational services, and payment gateway integrations with PayPal and Flywire."
+    },
+    "wymaq": {
+      "name": "Wymaq",
+      "description": "Built core features for Wymaq, a SaaS platform for digitizing and managing heavy machinery. Operates in Argentina, Chile, and Peru."
+    }
+  },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "Roles and projects where I contributed most — aligned with what you'll see in Works.",
+    "project_label": "Project",
+    "cladding": {
+      "period": "2023 — Present",
+      "role": "Full Stack Developer",
+      "company": "Cladding Creations",
+      "location": "Gold Coast, Australia · Remote",
+      "highlights": [
+        "Production app and website for aluminium manufacturing — panel tracking, inventory and internal workflows.",
+        "Stack: React, Supabase, AppSheet and Vite."
+      ]
+    },
+    "wymaq": {
+      "period": "2022 — 2024",
+      "role": "Full Stack Developer",
+      "company": "Wymaq",
+      "location": "Remote · Argentina, Chile and Peru",
+      "highlights": [
+        "Product decisions and core SaaS development for heavy machinery management.",
+        "Led a team of four developers; scalable solutions with PHP and Laravel."
+      ]
+    },
+    "antarpply": {
+      "period": "2026",
+      "role": "Web Platform",
+      "company": "Antarpply Expeditions",
+      "location": "Remote",
+      "highlights": [
+        "Antarctic expedition platform: catalog, bookings and PayPal & Flywire payment integrations."
+      ]
+    },
+    "matrice": {
+      "period": "2020 — 2023",
+      "role": "Full Stack Developer",
+      "company": "Matrice Consulting",
+      "location": "Remote",
+      "highlights": [
+        "Client-facing consulting: tech decisions, specs and API design with the backend team.",
+        "Third-party API integrations (SAP) into web platforms with Laravel and PostgreSQL."
+      ]
+    }
+  },
+  "about": {
+    "title": "About me",
+    "body": "I'm a Systems Engineer from Argentina with 7+ years building software — from interfaces to infrastructure. I lived and worked in Australia, which added a global perspective and distributed-team experience; my professional path was also built in Argentina and through remote work across different markets. I'm currently studying Protected Crops and Controlled Environments at UNLP, bridging technology and production in controlled settings. I'm comfortable with React, Next.js, Supabase and PostgreSQL, but what matters most is understanding the problem before picking the tool.",
+    "photo_alt": "Photo of Gaston Jouglard"
+  },
+  "contact": {
+    "title": "Got something in mind?",
+    "subtitle": "Let's talk.",
+    "meet_hint": "Send me an email — I'd love to hear your idea.",
+    "email_label": "Email",
+    "email_copy_hint": "Click to copy",
+    "email_copied": "Copied!",
+    "email_copy_aria": "Copy email address to clipboard"
+  },
+  "footer": {
+    "copyright": "© {year} Gaston Jouglard"
+  },
+  "clock": {
+    "label": "Now",
+    "hint": "Your local time — the same one I use to schedule meets and chats.",
+    "aria": "Live clock based on your browser timezone"
+  },
+  "a11y": {
+    "theme_toggle": "Toggle light/dark theme",
+    "locale_switcher": "Change language",
+    "skip_to_content": "Skip to content",
+    "external_link": "Opens in a new tab",
+    "navigation": "Main navigation",
+    "menu_open": "Open menu",
+    "menu_close": "Close menu"
+  }
+}

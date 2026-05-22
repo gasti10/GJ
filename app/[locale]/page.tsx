@@ -1,0 +1,37 @@
+import { Navbar } from "@/components/Navbar";
+import { Hero } from "@/components/Hero";
+import { LiveClock } from "@/components/LiveClock";
+import { MainShell } from "@/components/MainShell";
+import { Works } from "@/components/Works";
+import { Experience } from "@/components/Experience";
+import { About } from "@/components/About";
+import { Contact } from "@/components/Contact";
+import { routing } from "@/i18n/routing";
+import { setRequestLocale } from "next-intl/server";
+
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export default async function HomePage({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+
+  return (
+    <>
+      <Navbar />
+      <MainShell>
+        <Hero />
+        <Works />
+        <Experience />
+        <About />
+        <Contact />
+        <LiveClock />
+      </MainShell>
+    </>
+  );
+}
+
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}

@@ -1,0 +1,176 @@
+{
+  "metadata": {
+    "title": "Gaston Jouglard — Full Stack Developer",
+    "description": "Transformo problemas complexos em software que as pessoas usam. Full Stack Developer da Argentina com experiência internacional.",
+    "keywords": "full stack developer, react, next.js, typescript, argentina, software"
+  },
+  "nav": {
+    "works": "Projetos",
+    "about": "Sobre mim",
+    "contact": "Contato",
+    "home": "Início"
+  },
+  "hero": {
+    "name": "Gaston Jouglard",
+    "name_first": "Gaston",
+    "name_last": "Jouglard",
+    "headline": "Transformo problemas complexos em software que as pessoas usam",
+    "subheadline": "Sou Gaston Jouglard, Full Stack Developer. Trabalho em toda a stack porque acredito que as melhores soluções nascem de entender o sistema completo — não só a sua parte",
+    "cta_works": "Ver projetos",
+    "cta_linkedin": "LinkedIn",
+    "cta_github": "GitHub",
+    "marquee": "tech-logos",
+    "items": {
+      "full_stack": "Full Stack",
+      "react": "React",
+      "nextjs": "Next.js",
+      "typescript": "TypeScript",
+      "supabase": "Supabase",
+      "postgresql": "PostgreSQL",
+      "nodejs": "Node.js",
+      "saas": "SaaS",
+      "remote": "Remote",
+      "argentina": "Argentina",
+      "australia": "Austrália",
+      "brazil": "Brasil",
+      "travel": "Travel",
+      "antarctica": "Antarctica",
+      "manufacturing": "Manufacturing",
+      "coffee": "Coffee",
+      "mate": "Mate",
+      "engineer": "Engenheiro"
+    },
+    "controls": {
+      "shuffle": "Reorganizar tags",
+      "shuffle_label": "Reorganizar",
+      "shuffle_tease": " · misture",
+      "color": "Cor dos pills: {theme}",
+      "color_label": "Mudar cor",
+      "color_tease": " · teste",
+      "show": "Mostrar tags",
+      "show_label": "Mostrar",
+      "show_tease": " · tags",
+      "hide": "Ocultar tags",
+      "hide_label": "Ocultar",
+      "hide_tease": " · tags",
+      "themes": {
+        "green": "Verde",
+        "blue": "Azul",
+        "yellow": "Amarelo",
+        "white": "Branco"
+      }
+    },
+    "items_a11y": {
+      "container": "Tags interativas — passe o mouse ou clique",
+      "full_stack": "Full Stack — ir para projetos",
+      "react": "React — abrir site oficial",
+      "nextjs": "Next.js — abrir site oficial",
+      "typescript": "TypeScript — abrir site oficial",
+      "supabase": "Supabase — abrir site oficial",
+      "postgresql": "PostgreSQL — abrir site oficial",
+      "nodejs": "Node.js — abrir site oficial",
+      "saas": "SaaS — ir para projeto Wymaq",
+      "remote": "Remote — ir para sobre mim",
+      "argentina": "Argentina — ir para sobre mim",
+      "australia": "Austrália — ir para sobre mim",
+      "brazil": "Brasil — ir para sobre mim",
+      "travel": "Travel — ir para sobre mim",
+      "antarctica": "Antarctica — ir para projeto Antarpply",
+      "manufacturing": "Manufacturing — ir para projeto Cladding Creations",
+      "coffee": "Coffee — ir para contato",
+      "mate": "Mate — ir para sobre mim",
+      "engineer": "Engenheiro — ir para sobre mim"
+    }
+  },
+  "works": {
+    "title": "Projetos em destaque",
+    "visit": "Visitar site",
+    "cladding": {
+      "name": "Cladding Creations",
+      "description": "App e site de gestão de produção para uma empresa de manufatura de alumínio em Gold Coast, Austrália. Digitalizou o rastreamento de painéis, estoque e processos internos."
+    },
+    "antarpply": {
+      "name": "Antarpply Expeditions",
+      "description": "Plataforma web e backend para gestão de expedições antárticas — catálogo de viagens, reservas, serviços operacionais e integração com gateways de pagamento (PayPal e Flywire)."
+    },
+    "wymaq": {
+      "name": "Wymaq",
+      "description": "Desenvolvi features do core da Wymaq, plataforma SaaS de digitalização e gestão de maquinário pesado. Atuam na Argentina, Chile e Peru."
+    }
+  },
+  "experience": {
+    "title": "Experiência",
+    "subtitle": "Funções e projetos onde mais contribuí — alinhados com o que você verá em Projetos.",
+    "project_label": "Projeto",
+    "cladding": {
+      "period": "2023 — hoje",
+      "role": "Full Stack Developer",
+      "company": "Cladding Creations",
+      "location": "Gold Coast, Austrália · Remoto",
+      "highlights": [
+        "App e site de produção para manufatura de alumínio — rastreamento de painéis, estoque e processos internos.",
+        "Stack: React, Supabase, AppSheet e Vite."
+      ]
+    },
+    "wymaq": {
+      "period": "2022 — 2024",
+      "role": "Full Stack Developer",
+      "company": "Wymaq",
+      "location": "Remoto · Argentina, Chile e Peru",
+      "highlights": [
+        "Decisões de produto e desenvolvimento do core SaaS de gestão de maquinário pesado.",
+        "Liderança de equipe de quatro developers; soluções escaláveis com PHP e Laravel."
+      ]
+    },
+    "antarpply": {
+      "period": "2026",
+      "role": "Web Platform",
+      "company": "Antarpply Expeditions",
+      "location": "Remoto",
+      "highlights": [
+        "Plataforma de expedições antárticas: catálogo, reservas e integrações PayPal e Flywire."
+      ]
+    },
+    "matrice": {
+      "period": "2020 — 2023",
+      "role": "Full Stack Developer",
+      "company": "Matrice Consulting",
+      "location": "Remoto",
+      "highlights": [
+        "Consultoria com clientes: definição de stack, specs e design de APIs com o time de backend.",
+        "Integração de APIs de terceiros (SAP) em plataformas web com Laravel e PostgreSQL."
+      ]
+    }
+  },
+  "about": {
+    "title": "Sobre mim",
+    "body": "Sou Engenheiro de Sistemas da Argentina com mais de 7 anos desenvolvendo software — de interfaces até infraestrutura. Morei e trabalhei na Austrália, o que somou perspectiva global e experiência em times distribuídos; minha trajetória profissional também se construiu na Argentina e em projetos remotos para diferentes mercados. Hoje continuo me formando na tecnicatura em Cultivos Protegidos e Ambientes Controlados (UNLP), aproximando tecnologia e produção em ambientes controlados. Trabalho bem com React, Next.js, Supabase e PostgreSQL, mas o que mais importa é entender o problema antes de escolher a ferramenta.",
+    "photo_alt": "Foto de Gaston Jouglard"
+  },
+  "contact": {
+    "title": "Tem algo em mente?",
+    "subtitle": "Vamos conversar.",
+    "meet_hint": "Me manda um e-mail — quero ouvir sua ideia.",
+    "email_label": "Email",
+    "email_copy_hint": "Clique para copiar",
+    "email_copied": "Copiado!",
+    "email_copy_aria": "Copiar endereço de e-mail para a área de transferência"
+  },
+  "footer": {
+    "copyright": "© {year} Gaston Jouglard"
+  },
+  "clock": {
+    "label": "Agora",
+    "hint": "Seu horário local — o mesmo que uso para marcar meets e conversas.",
+    "aria": "Relógio ao vivo com base no fuso horário do navegador"
+  },
+  "a11y": {
+    "theme_toggle": "Alternar tema claro/escuro",
+    "locale_switcher": "Mudar idioma",
+    "skip_to_content": "Pular para o conteúdo",
+    "external_link": "Abre em uma nova aba",
+    "navigation": "Navegação principal",
+    "menu_open": "Abrir menu",
+    "menu_close": "Fechar menu"
+  }
+}
