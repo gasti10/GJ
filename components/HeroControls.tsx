@@ -100,7 +100,7 @@ type ControlButtonProps = {
   ariaLabel: string;
   onClick: () => void;
   icon: ReactNode;
-  showHint: boolean;
+  showHint?: boolean;
   entice?: boolean;
   extra?: ReactNode;
 };
@@ -111,7 +111,7 @@ function ControlButton({
   ariaLabel,
   onClick,
   icon,
-  showHint,
+  showHint = false,
   entice = false,
   extra,
 }: ControlButtonProps) {
