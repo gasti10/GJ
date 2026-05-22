@@ -9,6 +9,7 @@ export type HeroItemIcon =
   | "plane"
   | "coffee"
   | "mate"
+  | "football"
   | "graduation"
   | null;
 
@@ -157,6 +158,14 @@ export const heroItemDefs: HeroItemDef[] = [
     labelKey: "mate",
     icon: "mate",
     knockAngle: 280,
+    action: { type: "scroll", target: "#about" },
+  },
+  {
+    id: "football",
+    variant: "pill",
+    labelKey: "football",
+    icon: "football",
+    knockAngle: 150,
     action: { type: "scroll", target: "#about" },
   },
   {

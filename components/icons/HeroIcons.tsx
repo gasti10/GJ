@@ -80,7 +80,7 @@ export function Coffee({ className = "h-3.5 w-3.5" }: IconProps) {
   );
 }
 
-/** Mate con bombilla */
+/** Mate 🧉 — calabaza redonda + bombilla en L (silueta del emoji) */
 export function Mate({ className = "h-3.5 w-3.5" }: IconProps) {
   return (
     <svg
@@ -88,16 +88,50 @@ export function Mate({ className = "h-3.5 w-3.5" }: IconProps) {
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="1.8"
+      strokeWidth="1.75"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       aria-hidden
     >
       <path
-        d="M8 6c0-1.5 1.5-3 4-3s4 1.5 4 3v12c0 1.5-1.5 3-4 3s-4-1.5-4-3V6z"
-        strokeLinejoin="round"
+        d="M12 18.25c-3.45 0-6-2.85-6-6.75C6 7.6 8.55 4.75 12 4.75S18 7.6 18 11.5c0 3.9-2.55 6.75-6 6.75z"
+        fill="currentColor"
+        fillOpacity="0.12"
       />
-      <path d="M8 9h8M8 13h8" strokeLinecap="round" opacity="0.5" />
-      <path d="M14 4l4-2M18 2v8" strokeLinecap="round" strokeLinejoin="round" />
-      <circle cx="18" cy="10" r="1" fill="currentColor" stroke="none" />
+      <path d="M12 18.25c-3.45 0-6-2.85-6-6.75C6 7.6 8.55 4.75 12 4.75S18 7.6 18 11.5c0 3.9-2.55 6.75-6 6.75z" />
+      <path d="M9.25 9.25h5.5" />
+      <path d="M13.25 8.75 18 5.75V11" />
+      <path d="M13.25 8.75V12.5" />
+      <circle cx="13.25" cy="12.85" r="1.15" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
+
+/** Pelota de fútbol — pentágono central + costuras */
+export function Football({ className = "h-3.5 w-3.5" }: IconProps) {
+  return (
+    <svg
+      className={className}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.75"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden
+    >
+      <circle cx="12" cy="12" r="8.25" />
+      <path
+        d="M12 5.2 14.35 6.9l.9 2.85-1.9 1.75L12 10.8l-1.35 1.7-1.9-1.75.9-2.85L12 5.2z"
+        fill="currentColor"
+        fillOpacity="0.14"
+      />
+      <path d="M12 5.2V3.75" />
+      <path d="M14.35 6.9l1.85-1" />
+      <path d="M15.25 9.75l2.15.55" />
+      <path d="M12 10.8v2" />
+      <path d="M8.85 9.75l-2.15.55" />
+      <path d="M9.65 6.9l-1.85-1" />
     </svg>
   );
 }
@@ -140,6 +174,8 @@ export function HeroItemIcon({
       return <Coffee className={className} />;
     case "mate":
       return <Mate className={className} />;
+    case "football":
+      return <Football className={className} />;
     case "graduation":
       return <Graduation className={className} />;
   }

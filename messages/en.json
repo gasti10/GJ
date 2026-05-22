@@ -38,6 +38,7 @@
       "manufacturing": "Manufacturing",
       "coffee": "Coffee",
       "mate": "Mate",
+      "football": "Football",
       "engineer": "Engineer"
     },
     "controls": {
@@ -79,6 +80,7 @@
       "manufacturing": "Manufacturing — go to Cladding Creations project",
       "coffee": "Coffee — go to contact",
       "mate": "Mate — go to about",
+      "football": "Football — go to about",
       "engineer": "Engineer — go to about"
     }
   },
