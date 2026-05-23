@@ -1,4 +1,4 @@
-import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
 import { Inter, Inter_Tight, Space_Mono } from "next/font/google";
 import { notFound } from "next/navigation";
