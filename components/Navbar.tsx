@@ -12,6 +12,7 @@ const navItems = [
   { href: "#works", key: "works" as const },
   { href: "#about", key: "about" as const },
   { href: "#contact", key: "contact" as const },
+  { href: "#now", key: "time" as const },
 ];
 
 function MenuIcon({ open }: { open: boolean }) {
@@ -105,7 +106,7 @@ export function Navbar() {
       >
         <Logo />
 
-        <ul className="hidden items-center gap-6 md:flex md:gap-10">
+        <ul className="hidden items-center gap-5 md:flex lg:gap-8 xl:gap-10">
           {navItems.map((item) => (
             <li key={item.key}>
               <a href={item.href} className={navLinkClass}>

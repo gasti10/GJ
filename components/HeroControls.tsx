@@ -186,8 +186,14 @@ const SCROLL_THRESHOLD = 24;
 
 export function HeroControls() {
   const t = useTranslations("hero.controls");
-  const { pillTheme, itemsVisible, regenerateLayout, cyclePillTheme, toggleItemsVisibility } =
-    useHeroPlayground();
+  const {
+    pillTheme,
+    itemsVisible,
+    introColorHint,
+    regenerateLayout,
+    cyclePillTheme,
+    toggleItemsVisibility,
+  } = useHeroPlayground();
   const themeColor = PILL_THEME_COLORS[pillTheme].accent;
   const themeLabel = t(`themes.${pillTheme}` as `themes.${typeof pillTheme}`);
 
@@ -225,6 +231,8 @@ export function HeroControls() {
     cyclePillTheme();
   };
 
+  const showColorHint = showScrollHint || introColorHint;
+
   return (
     <div className="relative z-30 mt-3 flex justify-center gap-2">
       <ControlButton
@@ -232,8 +240,8 @@ export function HeroControls() {
         tease={t("color_tease")}
         ariaLabel={t("color", { theme: themeLabel })}
         onClick={handleColorClick}
-        showHint={showScrollHint}
-        entice={!hasUsedColor}
+        showHint={showColorHint}
+        entice={!hasUsedColor || introColorHint}
         icon={<PaletteIcon color={themeColor} />}
         extra={<ColorPreviewDots active={pillTheme} />}
       />

@@ -101,7 +101,7 @@ export default async function LocaleLayout({ children, params }: Props) {
     <html
       lang={locale}
       data-scroll-behavior="smooth"
-      className={`${interTight.variable} ${inter.variable} ${spaceMono.variable} h-full`}
+      className={`${interTight.variable} ${inter.variable} ${spaceMono.variable} dark h-full`}
       suppressHydrationWarning
     >
       <body className="min-h-full bg-background font-body text-foreground antialiased">

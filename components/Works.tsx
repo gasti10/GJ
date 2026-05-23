@@ -107,6 +107,22 @@ export function Works() {
                     <p className="text-sm leading-relaxed text-muted">
                       {description}
                     </p>
+                    {project.collaboration && (
+                      <p className="mt-3 text-xs leading-relaxed text-muted/90">
+                        {t.rich(`${project.slug}.collaboration`, {
+                          link: (chunks) => (
+                            <a
+                              href={project.collaboration!.partnerUrl}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="font-medium text-[color:var(--card-accent)] underline-offset-2 transition hover:text-[color:var(--card-accent-hover)] hover:underline"
+                            >
+                              {chunks}
+                            </a>
+                          ),
+                        })}
+                      </p>
+                    )}
                     <ul className="mt-4 flex flex-wrap gap-2">
                       {project.tags.map((tag) => (
                         <li

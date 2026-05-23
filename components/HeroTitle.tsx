@@ -2,12 +2,19 @@
 
 import { useLayoutEffect, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
+import {
+  HERO_INTRO_CHAR_STAGGER,
+  HERO_INTRO_MOUNT_DELAY,
+} from "@/lib/hero-intro";
 import { InteractiveText } from "./InteractiveText";
 import { useHeroPlayground } from "./HeroPlaygroundProvider";
 
 export function HeroTitle() {
   const t = useTranslations("hero");
   const { titleAnimationKey } = useHeroPlayground();
+  const introMode = titleAnimationKey === 0;
+  const mountDelay = introMode ? HERO_INTRO_MOUNT_DELAY : 0.35;
+  const charStagger = introMode ? HERO_INTRO_CHAR_STAGGER : 0.045;
   const containerRef = useRef<HTMLDivElement>(null);
   const measureRef = useRef<HTMLSpanElement>(null);
   const [singleLine, setSingleLine] = useState(false);
@@ -58,14 +65,20 @@ export function HeroTitle() {
               key={`first-${animKey}`}
               text={firstName}
               animateOnMount
-              mountDelay={0.35}
+              introMode={introMode}
+              introPart="first"
+              introFullName={fullName}
+              mountDelay={mountDelay}
             />
             <span className="inline-block w-[0.32em]" aria-hidden />
             <InteractiveText
               key={`last-${animKey}`}
               text={lastName}
               animateOnMount
-              mountDelay={0.35 + firstName.length * 0.045}
+              introMode={introMode}
+              introPart="last"
+              introFullName={fullName}
+              mountDelay={mountDelay + firstName.length * charStagger}
             />
           </span>
         ) : (
@@ -75,7 +88,10 @@ export function HeroTitle() {
                 key={`first-${animKey}`}
                 text={firstName}
                 animateOnMount
-                mountDelay={0.35}
+                introMode={introMode}
+                introPart="first"
+                introFullName={fullName}
+                mountDelay={mountDelay}
               />
             </span>
             <span className="-mt-[0.06em] block whitespace-nowrap text-right">
@@ -83,7 +99,10 @@ export function HeroTitle() {
                 key={`last-${animKey}`}
                 text={lastName}
                 animateOnMount
-                mountDelay={0.35 + firstName.length * 0.045}
+                introMode={introMode}
+                introPart="last"
+                introFullName={fullName}
+                mountDelay={mountDelay + firstName.length * charStagger}
               />
             </span>
           </span>

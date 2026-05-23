@@ -1,6 +1,11 @@
 "use client";
 
-import { HeroPlaygroundProvider, useHeroPlayground } from "@/components/HeroPlaygroundProvider";
+import { Navbar } from "@/components/Navbar";
+import { BackToTop } from "@/components/BackToTop";
+import {
+  HeroPlaygroundProvider,
+  useHeroPlayground,
+} from "@/components/HeroPlaygroundProvider";
 import { PILL_THEME_COLORS } from "@/lib/pill-theme";
 import type { CSSProperties, ReactNode } from "react";
 
@@ -9,8 +14,7 @@ function ThemeScope({ children }: { children: ReactNode }) {
   const colors = PILL_THEME_COLORS[pillTheme];
 
   return (
-    <main
-      id="main-content"
+    <div
       style={
         {
           "--highlight": colors.accent,
@@ -19,14 +23,18 @@ function ThemeScope({ children }: { children: ReactNode }) {
       }
     >
       {children}
-    </main>
+    </div>
   );
 }
 
 export function MainShell({ children }: { children: ReactNode }) {
   return (
     <HeroPlaygroundProvider>
-      <ThemeScope>{children}</ThemeScope>
+      <ThemeScope>
+        <Navbar />
+        <main id="main-content">{children}</main>
+        <BackToTop />
+      </ThemeScope>
     </HeroPlaygroundProvider>
   );
 }

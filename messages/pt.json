@@ -8,6 +8,7 @@
     "works": "Projetos",
     "about": "Sobre mim",
     "contact": "Contato",
+    "time": "Hora",
     "home": "Início"
   },
   "hero": {
@@ -58,7 +59,8 @@
         "green": "Verde",
         "blue": "Azul",
         "yellow": "Amarelo",
-        "white": "Branco"
+        "white": "Branco",
+        "black": "Preto"
       }
     },
     "items_a11y": {
@@ -93,7 +95,8 @@
     },
     "antarpply": {
       "name": "Antarpply Expeditions",
-      "description": "Plataforma web e backend para gestão de expedições antárticas — catálogo de viagens, reservas, serviços operacionais e integração com gateways de pagamento (PayPal e Flywire)."
+      "description": "Plataforma web e backend para gestão de expedições antárticas — catálogo de viagens, reservas, serviços operacionais e integração com gateways de pagamento (PayPal e Flywire).",
+      "collaboration": "Desenvolvido em colaboração com a equipe <link>mardd</link>."
     },
     "wymaq": {
       "name": "Wymaq",
@@ -102,8 +105,10 @@
   },
   "experience": {
     "title": "Experiência",
-    "subtitle": "Funções e projetos onde mais contribuí — alinhados com o que você verá em Projetos.",
+    "subtitle": "Trajetória profissional e formação — da indústria ao produto, e de volta à produção.",
     "project_label": "Projeto",
+    "education_label": "Formação",
+    "education_heading": "Formação",
     "cladding": {
       "period": "2023 — hoje",
       "role": "Full Stack Developer",
@@ -130,7 +135,8 @@
       "company": "Antarpply Expeditions",
       "location": "Remoto",
       "highlights": [
-        "Plataforma de expedições antárticas: catálogo, reservas e integrações PayPal e Flywire."
+        "Plataforma de expedições antárticas: catálogo, reservas e integrações PayPal e Flywire.",
+        "Desenvolvida em colaboração com a equipe mardd (mardd.com)."
       ]
     },
     "matrice": {
@@ -142,6 +148,38 @@
         "Consultoria com clientes: definição de stack, specs e design de APIs com o time de backend.",
         "Integração de APIs de terceiros (SAP) em plataformas web com Laravel e PostgreSQL."
       ]
+    },
+    "softtek": {
+      "period": "2019",
+      "role": "Analista Funcional e QA",
+      "company": "Softtek",
+      "location": "Argentina · Cliente OSDE · Trainee",
+      "highlights": [
+        "Ciclo de vida do software em equipe ágil de ~10 pessoas para OSDE: análise funcional, casos de teste e QA em Java, .NET e Angular.",
+        "Primeira experiência enterprise com entregas iterativas — base para a transição ao desenvolvimento full stack."
+      ]
+    },
+    "unlp": {
+      "period": "2026 — em curso",
+      "role": "Tecnicatura Universitária em Cultivos Protegidos e Ambientes Controlados",
+      "company": "UNLP — Faculdade de Ciências Agrárias e Florestais",
+      "location": "La Plata, Argentina",
+      "highlights": [
+        "Formação em produção sob cultivo protegido e estufas — aproximando tecnologia de ambientes controlados e agro.",
+        "Complementa meu perfil dev com operações, dados e automação aplicados ao mundo real."
+      ],
+      "link_program": "Ver curso na UNLP"
+    },
+    "uns": {
+      "period": "2019",
+      "role": "Engenheiro de Sistemas",
+      "company": "Universidad Nacional del Sur (UNS)",
+      "location": "Bahía Blanca, Argentina",
+      "highlights": [
+        "Base formal em engenharia de software, estruturas de dados, bancos de dados e design de sistemas.",
+        "Projeto final: Sistema de Identificação Animal com RFID — frontend e backend em Python/Django."
+      ],
+      "link_final_project": "Projeto final no GitHub"
     }
   },
   "about": {
@@ -173,6 +211,7 @@
     "external_link": "Abre em uma nova aba",
     "navigation": "Navegação principal",
     "menu_open": "Abrir menu",
-    "menu_close": "Fechar menu"
+    "menu_close": "Fechar menu",
+    "back_to_top": "Voltar ao topo"
   }
 }

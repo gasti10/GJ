@@ -1,4 +1,3 @@
-import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { LiveClock } from "@/components/LiveClock";
 import { MainShell } from "@/components/MainShell";
@@ -18,17 +17,14 @@ export default async function HomePage({ params }: Props) {
   setRequestLocale(locale);
 
   return (
-    <>
-      <Navbar />
-      <MainShell>
-        <Hero />
+    <MainShell>
+      <Hero />
         <Works />
         <Experience />
         <About />
         <Contact />
-        <LiveClock />
-      </MainShell>
-    </>
+      <LiveClock />
+    </MainShell>
   );
 }
 

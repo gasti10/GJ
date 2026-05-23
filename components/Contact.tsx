@@ -166,12 +166,13 @@ export function Contact() {
 
           <EmailCopyButton prefersReducedMotion={prefersReducedMotion} />
 
-          <ul className="mt-8 flex flex-wrap gap-3">
+          <ul className="mt-8 grid grid-cols-3 gap-2 sm:gap-3 md:flex md:flex-nowrap md:gap-3">
             {socialLinks.map((link, index) => {
               const Icon = link.icon;
               return (
                 <motion.li
                   key={link.key}
+                  className="min-w-0"
                   initial={prefersReducedMotion ? false : { opacity: 0, y: 10 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
@@ -185,7 +186,7 @@ export function Contact() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label={`${link.key} (${tA11y("external_link")})`}
-                    className="inline-flex items-center gap-2.5 rounded-full border border-border bg-surface/40 px-4 py-2.5 text-sm font-medium text-muted transition-colors hover:border-highlight/50 hover:text-highlight"
+                    className="inline-flex w-full items-center justify-center gap-1.5 whitespace-nowrap rounded-full border border-border bg-surface/40 px-2 py-2 text-[10px] font-medium text-muted transition-colors hover:border-highlight/50 hover:text-highlight sm:gap-2 sm:px-3 sm:text-xs md:w-auto md:gap-2.5 md:px-4 md:py-2.5 md:text-sm"
                     whileHover={prefersReducedMotion ? undefined : { y: -2, scale: 1.03 }}
                     whileTap={prefersReducedMotion ? undefined : { scale: 0.97 }}
                   >

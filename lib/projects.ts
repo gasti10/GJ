@@ -9,6 +9,9 @@ export type Project = {
   gradient: string;
   image?: string;
   accentTheme: PillTheme;
+  collaboration?: {
+    partnerUrl: string;
+  };
 };
 
 export const projects: Project[] = [
@@ -27,6 +30,9 @@ export const projects: Project[] = [
     gradient: "from-slate-800 to-indigo-950",
     image: "/images/antarpply.jpg",
     accentTheme: "blue",
+    collaboration: {
+      partnerUrl: "https://www.mardd.com/",
+    },
   },
   {
     slug: "wymaq",
