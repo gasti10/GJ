@@ -18,8 +18,8 @@
     "headline": "I turn complex problems into software people actually use",
     "subheadline": "I'm Gaston Jouglard, Full Stack Developer. I work across the entire stack because I believe the best solutions come from understanding the whole system — not just your piece of it",
     "cta_works": "See projects",
-    "cta_linkedin": "LinkedIn",
-    "cta_github": "GitHub",
+    "cta_about": "About",
+    "cta_contact": "Contact me",
     "marquee": "tech-logos",
     "items": {
       "full_stack": "Full Stack",

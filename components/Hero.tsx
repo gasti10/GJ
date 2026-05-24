@@ -2,7 +2,6 @@
 
 import { useTranslations } from "next-intl";
 import { PILL_THEME_COLORS } from "@/lib/pill-theme";
-import { SOCIAL } from "@/lib/constants";
 import { SITE_GUTTER } from "@/lib/site-layout";
 import { HeroItems } from "./HeroItems";
 import { useHeroPlayground } from "./HeroPlaygroundProvider";
@@ -12,7 +11,6 @@ import { TechMarquee } from "./TechMarquee";
 
 function HeroContent() {
   const t = useTranslations("hero");
-  const tA11y = useTranslations("a11y");
   const { pillTheme } = useHeroPlayground();
   const themeColors = PILL_THEME_COLORS[pillTheme];
 
@@ -54,22 +52,16 @@ function HeroContent() {
               {t("cta_works")}
             </a>
             <a
-              href={SOCIAL.linkedin}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={`${t("cta_linkedin")} (${tA11y("external_link")})`}
+              href="#about"
               className="inline-flex items-center rounded-full border border-foreground/30 px-6 py-3 font-mono text-xs font-medium uppercase tracking-wider transition hover:border-foreground"
             >
-              {t("cta_linkedin")}
+              {t("cta_about")}
             </a>
             <a
-              href={SOCIAL.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={`${t("cta_github")} (${tA11y("external_link")})`}
+              href="#contact"
               className="inline-flex items-center rounded-full border border-foreground/30 px-6 py-3 font-mono text-xs font-medium uppercase tracking-wider transition hover:border-foreground"
             >
-              {t("cta_github")}
+              {t("cta_contact")}
             </a>
           </div>
         </SectionReveal>
