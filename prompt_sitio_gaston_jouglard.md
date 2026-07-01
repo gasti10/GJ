@@ -102,7 +102,7 @@ Líneas editoriales minimalistas, sin barras de progreso ni diseño de CV tradic
 
 #### 6. Contact / Footer (id="contact")
 - Texto: `¿Tenés algo en mente? Hablemos.`
-- Email: `gastonjouglard.10@gmail.com` — visible, clickeable con `mailto:gastonjouglard.10@gmail.com`
+- Email: `gastonjouglard@gmail.com` — visible, clickeable con `mailto:gastonjouglard@gmail.com`
 - Links sociales: GitHub, LinkedIn, Instagram
 - Año dinámico: `© {new Date().getFullYear()} Gastón Jouglard`
 
@@ -313,7 +313,7 @@ export const experience: ExperienceEntry[] = [
     "title": "¿Tenés algo en mente?",
     "subtitle": "Hablemos.",
     "email_label": "Escribime",
-    "email": "gastonjouglard.10@gmail.com"
+    "email": "gastonjouglard@gmail.com"
   },
   "footer": {
     "copyright": "© {year} Gastón Jouglard"
@@ -376,7 +376,7 @@ export const experience: ExperienceEntry[] = [
     "title": "Got something in mind?",
     "subtitle": "Let's talk.",
     "email_label": "Send me an email",
-    "email": "gastonjouglard.10@gmail.com"
+    "email": "gastonjouglard@gmail.com"
   },
   "footer": {
     "copyright": "© {year} Gastón Jouglard"
@@ -439,7 +439,7 @@ export const experience: ExperienceEntry[] = [
     "title": "Tem algo em mente?",
     "subtitle": "Vamos conversar.",
     "email_label": "Me manda um e-mail",
-    "email": "gastonjouglard.10@gmail.com"
+    "email": "gastonjouglard@gmail.com"
   },
   "footer": {
     "copyright": "© {year} Gastón Jouglard"
