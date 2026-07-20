@@ -33,7 +33,6 @@ function ProjectCardHeader({
           fill
           className="object-cover transition duration-500 group-hover:scale-[1.03]"
           sizes="(max-width: 768px) 100vw, 50vw"
-          priority={project.slug === "cladding" || project.slug === "antarpply"}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/25 to-black/10" />
         <div

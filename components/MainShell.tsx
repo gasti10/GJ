@@ -1,13 +1,18 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import { Navbar } from "@/components/Navbar";
-import { BackToTop } from "@/components/BackToTop";
 import {
   HeroPlaygroundProvider,
   useHeroPlayground,
 } from "@/components/HeroPlaygroundProvider";
 import { PILL_THEME_COLORS } from "@/lib/pill-theme";
 import type { CSSProperties, ReactNode } from "react";
+
+const BackToTop = dynamic(
+  () => import("@/components/BackToTop").then((m) => m.BackToTop),
+  { ssr: false },
+);
 
 function ThemeScope({ children }: { children: ReactNode }) {
   const { pillTheme } = useHeroPlayground();

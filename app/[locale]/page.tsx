@@ -1,5 +1,5 @@
 import { Hero } from "@/components/Hero";
-import { LiveClock } from "@/components/LiveClock";
+import { LiveClockLazy } from "@/components/LiveClockLazy";
 import { MainShell } from "@/components/MainShell";
 import { Works } from "@/components/Works";
 import { Experience } from "@/components/Experience";
@@ -19,11 +19,11 @@ export default async function HomePage({ params }: Props) {
   return (
     <MainShell>
       <Hero />
-        <Works />
-        <Experience />
-        <About />
-        <Contact />
-      <LiveClock />
+      <Works />
+      <Experience />
+      <About />
+      <Contact />
+      <LiveClockLazy />
     </MainShell>
   );
 }
