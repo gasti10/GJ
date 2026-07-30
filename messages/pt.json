@@ -20,6 +20,7 @@
     "cta_works": "Ver projetos",
     "cta_about": "Sobre mim",
     "cta_contact": "Fale comigo",
+    "cta_book": "Agendar conversa",
     "marquee": "tech-logos",
     "items": {
       "full_stack": "Full Stack",
@@ -190,7 +191,11 @@
   "contact": {
     "title": "Tem algo em mente?",
     "subtitle": "Vamos conversar.",
-    "meet_hint": "Me manda um e-mail — quero ouvir sua ideia.",
+    "meet_hint": "Agende uma conversa de 30 min ou me mande um e-mail — quero ouvir sua ideia.",
+    "book_label": "Calendário",
+    "book_cta": "Agendar reunião",
+    "book_aria": "Abrir calendário para agendar uma reunião de 30 minutos",
+    "email_or": "Ou por e-mail",
     "email_label": "Email",
     "email_copy_hint": "Clique para copiar",
     "email_copied": "Copiado!",

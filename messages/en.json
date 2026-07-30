@@ -20,6 +20,7 @@
     "cta_works": "See projects",
     "cta_about": "About",
     "cta_contact": "Contact me",
+    "cta_book": "Book a call",
     "marquee": "tech-logos",
     "items": {
       "full_stack": "Full Stack",
@@ -190,7 +191,11 @@
   "contact": {
     "title": "Got something in mind?",
     "subtitle": "Let's talk.",
-    "meet_hint": "Send me an email — I'd love to hear your idea.",
+    "meet_hint": "Book a 30-min call or send me an email — I'd love to hear your idea.",
+    "book_label": "Calendar",
+    "book_cta": "Book a meeting",
+    "book_aria": "Open calendar to book a 30-minute meeting",
+    "email_or": "Or by email",
     "email_label": "Email",
     "email_copy_hint": "Click to copy",
     "email_copied": "Copied!",

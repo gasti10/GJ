@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import { useState } from "react";
 import { CONTACT_EMAIL, SOCIAL } from "@/lib/constants";
 import { SITE_GUTTER } from "@/lib/site-layout";
+import { BookCallButton } from "./BookCallButton";
 import { SectionReveal } from "./SectionReveal";
 
 const socialLinks = [
@@ -83,7 +84,7 @@ function EmailCopyButton({
       type="button"
       onClick={handleCopy}
       aria-label={t("email_copy_aria")}
-      className="group mt-8 inline-flex w-full max-w-md items-center gap-4 rounded-2xl border border-border bg-surface/60 px-5 py-4 text-left backdrop-blur-sm transition-colors hover:border-highlight/50 hover:bg-highlight/5 md:w-auto"
+      className="group mt-4 inline-flex w-full max-w-md items-center gap-4 rounded-2xl border border-border bg-surface/60 px-5 py-4 text-left backdrop-blur-sm transition-colors hover:border-highlight/50 hover:bg-highlight/5 md:w-auto"
       whileHover={prefersReducedMotion ? undefined : { y: -3 }}
       whileTap={prefersReducedMotion ? undefined : { scale: 0.98 }}
       transition={{ type: "spring", stiffness: 420, damping: 24 }}
@@ -162,6 +163,12 @@ export function Contact() {
           </p>
           <p className="mt-2 max-w-2xl text-base text-muted/90 md:text-lg">
             {t("meet_hint")}
+          </p>
+
+          <BookCallButton variant="contact" />
+
+          <p className="mt-4 max-w-md font-mono text-[10px] uppercase tracking-[0.14em] text-muted">
+            {t("email_or")}
           </p>
 
           <EmailCopyButton prefersReducedMotion={prefersReducedMotion} />

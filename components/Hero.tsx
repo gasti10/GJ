@@ -3,6 +3,7 @@
 import { useTranslations } from "next-intl";
 import { PILL_THEME_COLORS } from "@/lib/pill-theme";
 import { SITE_GUTTER } from "@/lib/site-layout";
+import { BookCallButton } from "./BookCallButton";
 import { HeroItems } from "./HeroItems";
 import { useHeroPlayground } from "./HeroPlaygroundProvider";
 import { HeroTitle } from "./HeroTitle";
@@ -57,12 +58,7 @@ function HeroContent() {
             >
               {t("cta_about")}
             </a>
-            <a
-              href="#contact"
-              className="inline-flex items-center rounded-full border border-foreground/30 px-6 py-3 font-mono text-xs font-medium uppercase tracking-wider transition hover:border-foreground"
-            >
-              {t("cta_contact")}
-            </a>
+            <BookCallButton variant="hero" />
           </div>
         </SectionReveal>
       </div>
